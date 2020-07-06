@@ -1,0 +1,40 @@
+syntax = "proto3";
+package pb;
+
+enum MessageType {
+  OK = 0;
+  PING = 1;
+  PONG = 2;
+  LOGIN = 3;
+  LOGOUT = 4;
+
+  BROADCAST = 6;
+  CHAT = 7;
+}
+
+// 心跳Ping-1
+message Ping {
+
+}
+
+// 心跳Pong-2
+message Pong {
+
+}
+
+message Login {
+  string name = 1;
+}
+
+
+message Logout {
+
+}
+
+message Chat {
+  string content = 1;
+}
+
+message Broadcast {
+  string content = 1;
+}
