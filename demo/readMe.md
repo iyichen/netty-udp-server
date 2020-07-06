@@ -4,4 +4,4 @@
 
 启动后输入用户名即可开始聊天，输入`quit`退出聊天：
 
-[image](https://github.com/iyichen/netty-udp-server/blob/master/demo/demo.png)
+![image](https://github.com/iyichen/netty-udp-server/blob/master/demo/demo.png)
